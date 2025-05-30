@@ -74,21 +74,23 @@ An advanced AI-powered interview simulation platform that provides realistic moc
    # Supabase
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-   SUPABASE_SERVICE_KEY=your_supabase_service_key
+   SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_key
+   SUPABASE_URL=your_supbase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   
    
    # ElevenLabs
    ELEVENLABS_API_KEY=your_elevenlabs_api_key
    
    # Google Gemini
    GOOGLE_GEMINI_API_KEY=your_gemini_api_key
+   NEXT_PUBLIC_BASE_URL
    ```
 
 
 4. **Run the development server**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
 5. **Access the application**
